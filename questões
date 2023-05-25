@@ -1,0 +1,23 @@
+Questão 1
+
+option = 2
+if option == 2:
+  print("caso1 selecionado")
+elif option == 1:
+  print("caso2 selecionado")
+else:
+  print("opção invalida")
+  
+  Questão 2 
+  
+from re import escape
+ld1=float(input(print("Digite a medida do lado 1")))
+ld2=float(input(print("Digite a medida do lado 2")))
+ld3=float(input(print("Digite a medida do lado 3")))
+
+if((ld1==ld2==ld3)):
+  print("triangulo equilatero")
+elif((ld1!=ld2!=ld3)):
+  print("triangulo escaleno")
+elif((ld1==ld2!=ld3),(ld1!=ld2==ld3)):
+  print("triangulo isoceles")
